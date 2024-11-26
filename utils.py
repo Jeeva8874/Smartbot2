@@ -10,6 +10,7 @@ from shortzy import Shortzy
 from datetime import datetime
 from typing import Any
 from database.users_chats_db import db
+from urllib.parse import quote_plus
 
 
 logger = logging.getLogger(__name__)
