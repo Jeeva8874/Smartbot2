@@ -16,7 +16,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '22977776'))
 API_HASH = environ.get('API_HASH', '2ac7223d720bdeec757cbc88ced57224')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7041695823:AAHSLcMgPh9iYDlghYXOKBoG75WaUiFhAUw')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6700618694:AAHDAmKEbokn-5GkpseIVWGIyZTM2YZs2WQ')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6762558871').split()]
@@ -26,7 +26,7 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Movieprovidergr
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002480489590').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jeevanantham8157:1055221@ajifilterbot.ut3sr.mongodb.net/?retryWrites=true&w=majority&appName=Ajifilterbot")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Ajifilterbot:1055221@heartfilter.pjrma.mongodb.net/?retryWrites=true&w=majority&appName=HeartFilter")
 DATABASE_NAME = environ.get('DATABASE_NAME', "heartfilter")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
